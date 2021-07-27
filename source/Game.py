@@ -1,8 +1,8 @@
 import pygame
 import pygame_widgets as pygame_w
+from time import sleep
 from Snake import Snake
 from Apple import Apple
-from time import sleep
 from typing import Optional, Union, List, Tuple, Dict
 
 class Game:
