@@ -1,9 +1,9 @@
 import pygame
 import pygame_widgets as pygame_w
+from typing import Optional, Union, List, Tuple, Dict
 from time import sleep
 from Snake import Snake
 from Apple import Apple
-from typing import Optional, Union, List, Tuple, Dict
 
 class Game:
 	def __init__(self, grid_size_y:int=15, grid_size_x:int=15) -> None:
