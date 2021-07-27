@@ -30,7 +30,7 @@ class Apple:
 				self.position in [self.consumer.head_pos, self.consumer.tail_pos]
 				or self.position in self.consumer.body_pos
 			)
-
+ 
 	def consumed(self) -> bool:
 		return self.position in self.consumer.body_pos or self.position == self.consumer.head_pos
 	
