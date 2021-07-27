@@ -1,7 +1,7 @@
 import pygame
-from Snake import Snake
 from random import randint
 from typing import Tuple
+from Snake import Snake
 
 class Apple:
 	def __init__(self, snake: Snake, golden=False):
